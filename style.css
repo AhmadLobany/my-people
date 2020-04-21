@@ -1,0 +1,23 @@
+#results {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    
+}
+
+.person {
+    position: relative;
+    background-color: lightgray;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name {
+    position: relative;
+    left: 10px;
+}
+
+.email {
+    position: relative;
+    left: 10px;
+}
